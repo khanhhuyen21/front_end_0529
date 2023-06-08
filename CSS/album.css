@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  border: 10px solid white;
+  height: 300px;
+  object-fit: cover;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  background-color: rgb(234, 234, 234);
+}
+figcaption {
+  text-align: center;
+  color: rgb(117, 117, 116);
+}
